@@ -30,7 +30,7 @@ and password: '12345678' to explore the provided functionality.
 The project uses Kinvey as database and 6 collections:
 (users, posts, comments, votes, flying-spots and market).
 I believe that this is just the start of this project and
-probably it will evolve in Angular during the next month.
+probably it will evolve in the near future.
 
 ## Home Page
 The Home Page displays repeatedly an array 
@@ -80,7 +80,7 @@ the rest are optional.
 
 ## Places To Fly
 !Only for authenticated users!
-Landing to this section of the page shows you
+Landing to this section of the site shows you
 the last added flying spots.
 Here again you can find a sidebar with 3 options:
 
@@ -97,15 +97,13 @@ know about it. The form is quite rich and
 most of the form fields are validated.
 
 #### Find Flying Spot
-I didn't have time to finish the logic about this page,
-it's 23:30 and I'm quickly writing the documentation.
-Sorry:)
+Not fully implemented yet:)
 
 #### Flying Spot Details
 !Only for authenticated users!
 Here you can find a detailed information about a 
 specific Flying Spot as well as weather info about
-the current conditions loaded from AccuWeather.
+the current conditions loaded from AccuWeather API.
 
 ## Market
 !Only for authenticated users!
@@ -119,13 +117,9 @@ They can also publish their own items for sale.
 You will probably notice that when a user logs in and clicks on
 the user icon on the right side of the main menu, in the dropdown
 menu you see a link to 'Profile' which should take you to the 
-user's profile page. At this stage this is still not implemented 
-and maybe it's a candidate for a separate Single Page App 
-that will be build with Angular during the upcoming course.
+user's profile page. At this stage this is still not implemented.
 
 Also, in case you log in with ADMIN role, in the same dropdown menu 
 you will see Admin Panel which is also not implemented yet.
-This doesn't mean that there is no ADMIN functionality,
-just the Admin Panel is missing!
 
 I hope you enjoy my project. Cheers!
