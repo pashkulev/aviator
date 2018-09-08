@@ -1,0 +1,323 @@
+a:hover {
+    text-decoration: none;
+}
+
+.bg-aviator {
+    background-color: #4f6285;
+}
+
+.bg-spot-forms {
+    background-color: #b8c2cb;
+}
+
+.bg-weather {
+    background-color: #566271;
+}
+
+.header {
+    padding-top: 100px;
+    display: flex;
+    background-size: cover;
+    height: auto;
+    background: url("../img/aviator-header.jpg") round;
+}
+
+.welcome {
+    height: 390px;
+    background: url("../img/welcome.jpg") round;
+}
+
+.welcome-message {
+    color: #465a74;
+    padding: 50px;
+    border: 1px solid #6c757d;
+    border-radius: 15px;
+    background: rgba(221, 255, 252, 0.3);
+}
+
+.navigation {
+    width: 100%;
+    align-self: flex-end;
+    background: rgba(25, 25, 50, 0.7);
+}
+
+.notification {
+    padding: 5px 0 5px 0;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    background: rgba(25, 25, 50, 0.8)
+}
+
+.error {
+    background-color: #ea6f69;
+}
+
+.success {
+    background-color: #47b74a;
+}
+
+/** {*/
+    /*border: 1px solid black;*/
+/*}*/
+
+.air-sports-menu {
+    color: #b9c2ca;
+    padding: 5px 5px 5px 10px;
+    border-top: 1px solid #b9c2ca;
+    background: #3a4d68;
+}
+
+.air-sports-menu:hover {
+    color: white;
+    border-top: 1px solid white;
+    background: #2c3f57;
+    cursor: pointer;
+}
+
+.flying-spots-menu {
+    padding: 10px;
+    /*font-weight: bolder;*/
+    color: #e4edf5;
+    border-bottom: 2px solid white;
+    background-color: #394c69;
+}
+
+.flying-spots-menu:hover {
+    cursor: pointer;
+    padding: 10px;
+    color: #dbe4ec;
+    border-bottom: 2px solid white;
+    background-color: #394250;
+}
+
+.country-form {
+    background: #445879;
+}
+
+.country-form:focus {
+    background: #465c81;
+}
+
+.discipline-box {
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    border: 4px solid cornflowerblue;
+    border-radius: 15px;
+    height: 270px;
+    padding-top: 210px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#paragliding-box {
+    background: url("../img/paragliding-discipline.jpg") round;
+}
+
+#speed-flying-box {
+    background: url("../img/speed-flying.jpg") round;
+}
+
+#hang-gliding-box {
+    background: url("../img/hang-gliding.jpg") round;
+}
+
+#gliding-box {
+    background: url("../img/gliding.jpg") round;
+}
+
+#wingsuit-flying-box {
+    background: url("../img/wingsuit-flying.jpg") round;
+}
+
+#sky-diving-box {
+    background: url("../img/skydive.jpg") round;
+}
+
+.discipline-title {
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: rgba(25, 25, 50, 0.5);
+}
+
+.discipline-title:hover {
+    cursor: pointer;
+    border: 1px solid #b9c2ca;
+    color: #aeb7bf;
+    background: rgba(25, 25, 50, 0.5);
+}
+
+.discipline-heading-title {
+    border: 1px solid #b9c2ca;
+    border-radius: 15px;
+    font-size: 1.2em;
+    background: rgba(25, 25, 50, 0.4);
+    padding: 5px;
+    margin: 140px 5px 0 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.discipline-heading-title:hover {
+    background: rgba(25, 25, 50, 0.6);
+}
+
+.discipline-heading {
+    border: 3px solid #b9c2ca;
+    height: 200px;
+}
+
+/*PARAGLIDING*/
+
+#gliding-heading {
+    background: url("../img/gliding.jpg") round;
+}
+
+#hang-gliding-heading {
+    background: url("../img/hang-gliding.jpg") round;
+}
+
+#paragliding-heading {
+    background: url("../img/paragliding-discipline.jpg") round;
+}
+
+#speed-flying-heading {
+    background: url("../img/speed-flying.jpg") round;
+}
+
+#sky-diving-heading {
+    background: url("../img/skydive.jpg") round;
+}
+
+#wingsuit-flying-heading {
+    background: url("../img/wingsuit-flying.jpg") round;
+}
+
+
+.post-form-area {
+    color: white;
+}
+
+.posts {
+    position: relative;
+    z-index: 10;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+.text-link {
+    color: #72d1f9;
+}
+
+.text-note {
+    font-style: italic;
+    color: #a7b7bf;
+}
+
+.text-link:hover {
+    color: #13cbde;
+}
+
+.post-icon {
+    color: #b9c2ca;
+}
+
+.post-icon:hover {
+    color: #e4edf5;
+    cursor: pointer;
+}
+
+.bg-comment {
+    background-color: #cbdae3;
+}
+
+.comment-icon {
+    color: #4f6591
+}
+
+.comment-icon:hover {
+    cursor: pointer;
+    color: #354865;
+}
+
+.comments-toggle-button {
+    padding: 0 10px 0 10px;
+    color: #405473;
+    background-color: #b9c2ca;
+    border-radius: 5px;
+}
+
+.comments-toggle-button:hover {
+    background-color: #e4edf5;
+    cursor: pointer;
+}
+
+.active-sidebar-item {
+    background-color: white;
+    color: black;
+}
+
+.flying-spot-error {
+    text-align: center;
+    padding: 5px 15px 5px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 30%;
+    position: fixed;
+    top: 40px;
+    right: 70px;
+    z-index: 1000;
+    background: rgba(238, 0, 0, 0.7);
+    color: white;
+}
+
+.spot-image {
+    border: 1px solid white;;
+    border-radius: 16px;
+}
+
+.item-image {
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.loader {
+    background-color: #2c3f57;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
